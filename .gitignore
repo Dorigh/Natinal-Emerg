@@ -1,0 +1,7 @@
+cred.txt
+twitter_credentials.json
+*.pdf
+*.csv
+*.xlsx
+./tweet_env
+./backup
