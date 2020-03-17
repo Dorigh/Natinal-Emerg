@@ -2,7 +2,7 @@
 
 echo ----- $(hostname) $(date) -----
 if [ ! -d tweet_env ]; then
-    conda create --prefix ./tweet_env pandas twython xlsxwriter
+    conda create --yes --prefix ./tweet_env pandas twython
 fi
 conda activate ./tweet_env
 
