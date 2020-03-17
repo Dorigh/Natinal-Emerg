@@ -2,7 +2,7 @@
 
 This project will discuss the public reaction to a national disaster like recent spread of COVID-19 in the world and the US by observing the users tweets in twitter including #COVID-19. Gathering information about the number of tweets in different states, the frequency of tweets and the popularity of tweets will provide us with information we can use to analyze the social reaction to global warming.
 
-The data needed for this project where gathered from the available API from Twitter using Python. The tweets are collected from a 100 mi circular area of the state capitals across the US. The following map shows the tweets area for the current study.
+The data needed for this project where gathered from the available API from Twitter using Python. The tweets are collected from a 100 mi circular area of the state capitals across the US. In overall, 33458 tweets are collected from selected area based on #COVID-19. The following map shows the tweets area for the current study.
 
 <img src="files/map.png" alt = "plot" align="center" style="width:100%; margin:20px">
 
@@ -34,11 +34,15 @@ The Provided plots shows the followings:
 
 ![All states](files/all_states.png)
 
+The following shows total #COVID-19 tweets per day in the collected data in all states:
+
 ![By days](files/days.png)
 
 In the following plots, we chose the states with the fewer number of tweets. We can see how declaring national emergency over the spread of virus impacted the social concers. 
 
 ![States with less tweets](files/low_states.png)
+
+The following shows total #COVID-19 tweets per day in the collected data for four states with least tweet numbers:
 
 ![Four states per day](files/four_states.png)
 
