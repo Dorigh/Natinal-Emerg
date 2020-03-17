@@ -3,7 +3,7 @@ library(maps)
 
 # Tweet area
 data_states <- read.csv("./files/States.csv")
-sf_data<- st_as_sf(data_states, coords = c("Lon", "Lat"))
+sf_data <- st_as_sf(data_states, coords = c("Lon", "Lat"))
 buffer <- st_buffer(sf_data, dist = 1.6) # unit 100km
 
 par(mar = c(5,2,3,2))
